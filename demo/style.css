@@ -1,0 +1,34 @@
+.validate{
+    margin-top: 5px;
+    left: 146px;
+    position: relative;
+}
+
+textarea{
+    min-width: 400px;
+}
+
+pre{
+    color:white;
+    background-color: black;
+    padding: 30px;
+}
+.socialCTA{
+    margin-top: 150px;
+    display:flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.pub {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    flex-direction: row;
+    align-items: center;
+}
+.pub img{
+    margin: 15px;
+}
