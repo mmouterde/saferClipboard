@@ -13,7 +13,8 @@
       ],
       "matches": [
         "*://*/*"
-      ]
+      ],
+      "run_at":"document_start"
     }
   ],
   "manifest_version": 2
