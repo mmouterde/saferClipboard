@@ -17,5 +17,6 @@
       "run_at":"document_start"
     }
   ],
+  "permissions":["clipboardRead", "clipboardWrite"],
   "manifest_version": 2
 }
