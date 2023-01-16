@@ -6,7 +6,7 @@ When you copy, SaferClipboard checks if the clipboard data matches the selected 
 
 ## Install
 
-- For Firefox https://addons.mozilla.org/fr/firefox/addon/saferclipboard/
+- For Firefox https://addons.mozilla.org/firefox/addon/saferclipboard/
 - For Chrome https://chrome.google.com/webstore/detail/SaferClipboard/mmdmehgiibfhdfhncaocdimlhbgpaicm
 
 ## Demo Page
